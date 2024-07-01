@@ -1,0 +1,3 @@
+content/en/**
+!content/en/**/*.md
+!content/en/_config.yml
