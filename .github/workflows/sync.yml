@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: 'zarr-developers/zarr-developers.github.io'
-          path: 'zarr-devlopers.github.io'
+          path: 'zarr-developers.github.io'
           ref: 'main'
 
       - name: Checkout zarr.dev-translations
