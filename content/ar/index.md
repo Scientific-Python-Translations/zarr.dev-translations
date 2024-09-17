@@ -1,74 +1,21 @@
 ---
 layout: single
 author_profile: false
+title: Zarr Office Hours
+permalink: /office-hours/
 sidebar:
   title: Content
   nav: sidebar
-excerpt: Have beautiful data in Zarr? Show us on Twitter!
-header:
-  overlay_image: /images/llc4320_sst.png
-  overlay_filter: 0.5
-  caption: "Credit: Ryan Abernathey"
-  actions:
-    - label: Tweet here!
-      url: https://twitter.com/intent/tweet?via=zarr_dev&hashtags=beautifuldata
 ---
 
-Zarr is a community project to develop specifications and software for
-storage of large N-dimensional typed arrays, also commonly known as
-tensors. A particular focus of Zarr is to provide support for storage
-using distributed systems like cloud object stores, and to enable
-efficient I/O for parallel computing applications.
+<button type="button" name="office-hours" class="btn" onclick="window.open('https://us06web.zoom.us/j/82421833659?pwd=N0pMdURQZmIrWmdjbXhBUHFWTkZYdz09');">Join here</button>
 
-## Description
+<p><font size="4">We’re hosting office hours on Wednesdays every two weeks. Please join us if you have questions about Zarr and want to learn more about the storage format. We’ll discuss the specification, the implementations, what’s new in the Zarr ecosystem, how you can get involved in the community and much more.</font></p>
 
-Zarr is motivated by the need for a simple, transparent, open, and
-community-driven format that supports high-throughput distributed I/O on
-different storage systems. Zarr data can be stored in any storage system that
-can be represented as a key-value store, including most commonly POSIX file
-systems and cloud object storage but also zip files as well as relational and
-document databases.
+<p><font size="4">Office hours are a great place to go if you want to start using Zarr and have questions about whether it suits your data storage needs. We’ll have a few items on the agenda to kickstart the meeting, but the overall agenda and structure of the office hours will be shaped according to the attendees’ and community’s needs.</font></p>
 
-See the following GitHub repositories for more information:
+<p><font size="4">Please see the Zarr community calendar for exact timings:</font></p>
 
-- [Zarr Python](https://github.com/zarr-developers/zarr)
-- [Zarr Specs](https://github.com/zarr-developers/zarr-specs)
-- [Numcodecs](https://github.com/zarr-developers/numcodecs)
-- [Z5](https://github.com/constantinpape/z5)
-- [N5](https://github.com/saalfeldlab/n5)
-- [Zarr.jl](https://github.com/meggart/Zarr.jl)
-- [ndarray.scala](https://github.com/lasersonlab/ndarray.scala)
+<iframe id="calendariframe" src="https://calendar.google.com/calendar/embed?ctz=local&src=c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <script>document.getElementById("calendariframe").src = document.getElementById("calendariframe").src.replace("ctz=local", "ctz=" + Intl.DateTimeFormat().resolvedOptions().timeZone)</script> 
 
-## Applications
-
-- Simple and fast serialization of NumPy-like arrays, accessible from languages including Python, C, C++, Rust, Javascript and Java
-- Multi-scale n-dimensional image storage, e.g. in light and electron microscopy
-- Geospatial rasters, e.g. following the NetCDF / CF metadata conventions
-
-## Features
-
-- Chunk multi-dimensional arrays along any dimension.
-- Store arrays in memory, on disk, inside a Zip file, on S3, etc.
-- Read and write arrays concurrently from multiple threads or processes.
-- Organize arrays into hierarchies via annotatable groups.
-
-## Sponsorship
-
-Zarr is a Sponsored Project of NumFOCUS, a US 501(c)(3) public charity.
-
-NumFOCUS Sponsored Projects rely on the generous support of corporate sponsors, institutional partners, and individual donors.
-
-## Videos
-
-[Videos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
-of community members talking about Zarr. If you have a video you'd like us to share, let us know!
-
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Take a look at my video about Zarr! " data-hashtags="beautifuldata" data-related="zarr_dev" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<div class="video">
-    <figure>
-        <iframe width="640" height="480"
-            src="https://www.youtube.com/embed/videoseries?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7"
-            frameborder="0" allowfullscreen></iframe>
-    </figure>
-</div>
+<font size="4">Download the <a href="https://calendar.google.com/calendar/ical/c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com/public/basic.ics">.ics</a> file and add it to your calendar so won't miss any of our meetings!</font>
