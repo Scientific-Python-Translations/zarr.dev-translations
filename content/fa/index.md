@@ -1,34 +1,50 @@
 ---
 layout: single
 author_profile: false
-title: Zarr Datasets
+title: Zarr Implementations
 sidebar:
   title: Content
   nav: sidebar
 ---
 
 <font size="4">
-Zarr has been <a href="https://zarr.dev/adopters/">adopted</a> by a variety of
-research groups, universities, organisations, and open-source communities.<br>
-Below is a list of a few examples of public datasets.<br><br>
-</font>
+Zarr is a data storage format based on an open-source <a
+href="https://zarr-specs.readthedocs.io/">specification</a>, making
+implementations across several languages possible. It is used in various
+domains, including geospatial, bio-imaging, genomics, data science, and HPC. 🌏🔬🧬<br><br>
 
-| Dataset                                                                                                            | Hosting               | Size  |
-| ------------------------------------------------------------------------------------------------------------------ | --------------------- | ----- |
-| [CMIP6](https://console.cloud.google.com/marketplace/details/noaa-public/cmip6)                                    | Google Cloud          | 1 PB  |
-| [Image Data Resource (IDR)](https://idr.github.io/ome-ngff-samples/)                            | EBI                   | 3 TB  |
-| [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/catalog?filter=zarr)                        | Microsoft Azure       |       |
-| [MUR Sea Surface Temperature](https://registry.opendata.aws/mur)                                                   | AWS Open Data Program | 54 TB |
-| [NASA POWER](https://registry.opendata.aws/nasa-power/)                                                            | AWS Open Data Program |       |
-| [National Water Model](https://discourse.pangeo.io/t/the-national-water-model-reanalysis-zarr-dataset-on-aws/1449) | Amazon AWS            | 5 TB  |
-| [webKnossos](https://zarr.webknossos.org/)                                                                         | scalableminds GmbH    | 70 TB |
+Implementations are listed (in alphabetical order) as follows:<br><br> </font>
+
+| C          | C++            | Java          | Javascript   | Julia     | OCaml     | Python        | R         | Rust      |
+| ---------- | -------------- | ------------- | ------------ | --------- | --------- | ------------- | --------- | --------- |
+| [NetCDF-C] | [GDAL]         | [JZarr]       | [Zarr.js]    | [Zarr.jl] | [Zarr-ml] | [Zarr-Python] | [Rarr]    | [Rust-N5] |
+|            | [Tensorstore]  | [N5-Zarr]     | [Zarr-js]    |           |           | [Zarrita]     | [Pizzarr] | [Zarr]    |
+|            | [Xtensor-Zarr] | [NetCDF-Java] | [Zarrita.js] |           |           |               |           | [Zarrs]   |
+|            | [Z5]           |               |              |           |           |               |           |           |
+
+[NetCDF-C]: https://github.com/Unidata/netcdf-c
+[GDAL]: https://gdal.org/drivers/raster/zarr.html
+[JZarr]: https://github.com/bcdev/jzarr
+[Zarr.js]: https://github.com/gzuidhof/zarr.js
+[Zarr.jl]: https://github.com/JuliaIO/Zarr.jl
+[Zarr-Python]: https://github.com/zarr-developers/zarr-python
+[Zarrita]: https://github.com/scalableminds/zarrita
+[Rarr]: https://github.com/grimbough/Rarr
+[Rust-N5]: https://github.com/aschampion/rust-n5
+[Tensorstore]: https://github.com/google/tensorstore/
+[N5-Zarr]: https://github.com/saalfeldlab/n5-zarr
+[Zarr-js]: https://github.com/freeman-lab/zarr-js
+[Zarr]: https://github.com/sci-rs/zarr
+[Xtensor-Zarr]: https://github.com/xtensor-stack/xtensor-zarr
+[NetCDF-Java]: https://github.com/Unidata/netcdf-java
+[Z5]: https://github.com/constantinpape/z5
+[Pizzarr]: https://keller-mark.github.io/pizzarr/
+[Zarrs]: https://github.com/LDeakin/zarrs
+[Zarrita.js]: https://github.com/manzt/zarrita.js
+[Zarr-ml]: https://github.com/zoj613/zarr-ml
 
 <font size="4">
-<br>If you think your dataset would be a useful example to add to the list,
-feel free to send a PR to the website <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repository</a>.<br><br>
+→ Feel free to add any missing implementations by sending a PR to the website <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repository</a>. 🤝🏻<br><br>
 
-Please ensure the dataset you're adding to the list is public, free to use,
-documented, and illustrate the application of Zarr within a specific domain.<br><br>
-
-Please only include URLs that you expect to be stable and maintained in the
-foreseeable future. </font>
+→ Get involved in various Zarr implementations by fixing bugs, resolving issues, improving documentation, or contributing to the codebase.
+If you've been doing any of these activities recently, we invite you to join our <a href="https://zarr.dev/community-calls/">community meetings</a> and share your work with us. We'd be delighted to showcase your efforts. 💪🏻 </font>
