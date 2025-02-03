@@ -1,21 +1,48 @@
 ---
 layout: single
 author_profile: false
-title: Zarr Office Hours
-permalink: /office-hours/
+title: La comunidad de Zarr
 sidebar:
   title: Content
   nav: sidebar
 ---
 
-<button type="button" name="office-hours" class="btn" onclick="window.open('https://us06web.zoom.us/j/83046491212?pwd=MV5dMCnYIy6E57Rn8IpmwasLX27wOd.1');">Join here</button>
+Zarr es una especificación de formato de datos de código abierto impulsada por la comunidad, desarrollada y mantenida por diversos [colaboradores](https://github.com/orgs/zarr-developers/teams). The Zarr contributors aim to maintain an open, equal, diverse, and inclusive community. Please read the [Zarr Code of Conduct](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md) for the appropriate way to interact with the community and help each other.
 
-<p><font size="4">We’re hosting office hours on Wednesdays every two weeks. Please join us if you have questions about Zarr and want to learn more about the storage format. We’ll discuss the specification, the implementations, what’s new in the Zarr ecosystem, how you can get involved in the community and much more.</font></p>
+The Zarr community meets two times every two weeks via [community](https://zarr.dev/community-calls) and [ZEP meetings](https://zarr.dev/zeps/meetings/). Please have a look at our [community calendar](https://zarr.dev/community-calls/) for exact timings.
 
-<p><font size="4">Office hours are a great place to go if you want to start using Zarr and have questions about whether it suits your data storage needs. We’ll have a few items on the agenda to kickstart the meeting, but the overall agenda and structure of the office hours will be shaped according to the attendees’ and community’s needs.</font></p>
+Feel free to explore the various communication channels mentioned below.
 
-<p><font size="4">Please see the Zarr community calendar for exact timings:</font></p>
+## Community meetings
 
-<iframe id="calendariframe" src="https://calendar.google.com/calendar/embed?ctz=local&src=c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <script>document.getElementById("calendariframe").src = document.getElementById("calendariframe").src.replace("ctz=local", "ctz=" + Intl.DateTimeFormat().resolvedOptions().timeZone)</script> 
+Zarr community meeting notes, joining instructions, agenda and calendar are available at: [https://zarr.dev/community-calls](https://zarr.dev/community-calls)
 
-<font size="4">Download the <a href="https://calendar.google.com/calendar/ical/c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com/public/basic.ics">.ics</a> file and add it to your calendar so won't miss any of our meetings!</font>
+## ZEPs
+
+ZEP stands for Zarr Enhancement Proposal. A ZEP is a design document providing information to the Zarr community, describing a modification or enhancement of the [Zarr specifications](https://zarr-specs.readthedocs.io/en/latest/), a new feature for its processes or environment.
+
+More info on ZEPs is available at: [https://zarr.dev/zeps/](https://zarr.dev/zeps/)
+
+We hold bi-weekly ZEPs meetings to propose, discuss, review and finalize discussions around [current ZEPs](https://zarr.dev/zeps/draft_zeps/) and [Zarr Specification](https://zarr-specs.readthedocs.io/en/latest/specs.html). More info available here: [https://zarr.dev/zeps/meetings/](https://zarr.dev/zeps/meetings/)
+
+> Please note ZEPs meetings are different from bi-weekly community meetings. The Zarr Community meets two times every two weeks. Please have a look at our [community calendar](https://zarr.dev/community-calls/) for exact timings.
+
+## Blog
+
+Check out the Zarr blog [here](https://zarr.dev/blog).
+
+> The GitHub repository for the blog is [here](https://github.com/zarr-developers/blog). In addition, we’re always looking for guest blog posts. For more info, please read [this](https://github.com/zarr-developers/blog#contribute-to-zarr-blog).
+
+## Join the community
+
+Most discussions and chats related to Zarr and its [implementations](https://github.com/zarr-developers/zarr_implementations) take place on ZulipChat and GitHub. If you are looking to:
+
+- Interact with the maintainers, contributors and users of the project; join the ZulipChat → [here](https://ossci.zulipchat.com/)
+- Want to ask questions related to [`zarr-python`](https://github.com/zarr-developers/zarr-python) usage, create a new discussion on GitHub → [here](https://github.com/zarr-developers/zarr-python/discussions)
+- Contribute and engage in discussion related to Zarr Specification; check out the `zarr-specs` [repo](https://github.com/zarr-developers/zarr-specs/) or create an issue → [here](https://github.com/zarr-developers/zarr-specs/issues)
+
+Also, find us on:
+
+- [Bluesky](https://bsky.app/profile/zarr.dev)
+- [GitHub](https://github.com/zarr-developers)
+- [YouTube](https://www.youtube.com/@zarr_dev/playlists)
