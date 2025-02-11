@@ -9,9 +9,9 @@ files:
   - source: /content/en/**/*.md
     translation: /content/%two_letters_code%/%original_file_name%
     ignore:
-      - /content/en/README.md
-      - /content/en/slides.md
-      - /content/en/slides/**
-      - /content/en/numcodecs_redirects/**
-      - /content/en/_posts/**
+      - "/content/en/README.md"
+      - "/content/en/slides.md"
+      - "/content/en/slides/**"
+      - "/content/en/numcodecs_redirects/**"
+      - "/content/en/_posts/**"
     update_option: update_as_unapproved
