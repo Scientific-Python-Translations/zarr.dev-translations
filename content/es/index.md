@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 title: La comunidad de Zarr
 sidebar:
-  title: Content
+  title: Contenido
   nav: sidebar
 ---
 
