@@ -4,7 +4,7 @@ author_profile: false
 title: Slides
 permalink: /slides/
 sidebar:
-  title: Content
+  title: Contenido
   nav: sidebar
 ---
 
