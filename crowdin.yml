@@ -13,6 +13,6 @@ files:
       - /content/en/_posts/**
       - /content/en/numcodecs_redirects/**
       - /content/en/slides/**
-      - /content/en/slides/plugin/**
-      - /content/en/slides/theme/**
+      - /content/en/slides/css/theme/**
+      - /content/en/slides/plugin/markdown/**
     update_option: update_as_unapproved
