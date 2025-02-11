@@ -1,7 +1,7 @@
 ---
-title: Zarr protocol v3 design update
+title: Actualización de diseño del protocolo Zarr v3
 date: 2019-06-19
-categories: zarr specs
+categories: especificaciones zarr
 layout: home
 author_profile: false
 sidebar:
@@ -9,67 +9,35 @@ sidebar:
   nav: sidebar
 ---
 
-Today I put together some slides summarising the current state of
-exploratory work on the Zarr v3 protocol
-spec. The
-purpose of this blog post is to share those slides more widely, and to
-provide some context explaining why work has started on a v3 spec.
+Hoy he reunido algunas [diapositivas que resumen el estado actual del trabajo exploratorio sobre la especificación del protocolo Zarr v3] (https://zarr-developers.github.io/slides/v3-update-20190619.html). El propósito de este blog es compartir esas diapositivas más ampliamente y proporcionar un contexto que explique por qué se comenzó a trabajar en una especificación v3.
 
-## Why work on a v3 spec?
+## ¿Por qué trabajar en una especificación v3?
 
-The current (v2) Zarr
-spec is
-implemented in a number of software libraries, and is a stable and
-robust protocol that is used in production in a number of different
-scientific communities. If you need to store and compute in parallel
-against large array-like data, it's a good solution. So why start
-thinking about a new protocol version?
+La [especificación actual (v2) de Zarr] (https://zarr.readthedocs.io/en/stable/spec/v2.html) se implementa en varias bibliotecas de software y es un protocolo estable y sólido que se utiliza en producción en varias comunidades científicas diferentes. Si necesita almacenar y calcular en paralelo con datos similares a matrices, es una buena solución. Entonces, ¿por qué empezar a pensar en una nueva versión del protocolo?
 
-### Language-agnostic
+### Lenguaje-agnóstico
 
-One reason is that the v2 protocol is somewhat Python-centric, and
-includes some features which are not straightforward to implement in
-other languages. This has meant that implementations do not all
-support the same feature set. It would be good to have a minimal v3
-protocol spec that could be fully implemented in any language, so all
-implementations have parity around a core feature set.
+Una razón es que el protocolo v2 está algo centrado en Python e incluye algunas características que no son sencillas de implementar en otros lenguajes. This has meant that implementations do not all
+support the same feature set. Sería bueno tener una especificación de protocolo v3 mínima que pudiera implementarse completamente en cualquier lenguaje, de modo que todas las implementaciones tengan paridad en torno a un conjunto de características principales.
 
 ### Unifying Zarr and N5
 
-Another reason is that we would like to merge development efforts
-between the Zarr and N5 communities, and so a goal for the v3 spec is
-to unify the two approaches and provide a common implementation
-target.
+Otra razón es que nos gustaría fusionar los esfuerzos de desarrollo entre las comunidades Zarr y N5, por lo que un objetivo de la especificación v3 es unificar los dos enfoques y proporcionar un objetivo de implementación común.
 
-### Extensibility
+### Extensibilidad
 
-A third reason is that a number of different groups have started
-experimenting and extending the Zarr protocol in interesting ways, but
-it's not always clear how to extend the v2 protocol to support new
-features. It would be good if the v3 spec provided a variety of clear
-extension points and extension mechanisms.
+Una tercera razón es que varios grupos diferentes han comenzado a experimentar y extender el protocolo Zarr de maneras interesantes, pero no siempre es claro cómo extender el protocolo v2 para admitir nuevas funciones. Sería bueno si la especificación v3 proporcionara una variedad de puntos de extensión y mecanismos de extensión claros.
 
-### Cloud storage
+### Almacenamiento en la nube
 
-Finally, while the v2 spec can be used very effectively with
-distributed storage systems like Amazon S3 or Google Cloud Storage,
-there is room for improvement, particularly regarding how metadata is
-stored and organised.
+Finalmente, si bien la especificación v2 se puede utilizar de manera muy efectiva con sistemas de almacenamiento distribuido como Amazon S3 o Google Cloud Storage, hay espacio para mejoras, particularmente en lo que respecta a cómo se almacenan y organizan los metadatos.
 
-## Zarr v3 design update
+## Actualización de diseño Zarr v3
 
-I you are interested in knowing more about the current status of work
-on the v3 spec, please take a look at the v3 design update
-slides. The
-slides use reveal.js and have both horizontal and vertical
-navigation - if you haven't seen that before, then navigate downwards
-first wherever you can, before navigating to the right.
+Si está interesado en saber más sobre el estado actual del trabajo en la especificación v3, eche un vistazo a las [diapositivas de actualización del diseño v3] (https://zarr-developers.github.io/slides/v3-update-20190619.html). Las diapositivas usan reveal.js y tienen navegación horizontal y vertical; si no lo has visto antes, navega primero hacia abajo siempre que puedas, antes de navegar hacia la derecha.
 
-As I mention in the slides, the current v3 spec is just a straw man,
-meant to illustrate some ideas and potential solutions, but everything
-is up for discussion. So if you have any comments or ideas, please do
-get in touch, anyone is welcome to participate.
+Como menciono en las diapositivas, la especificación v3 actual es solo un borrador, destinado a ilustrar algunas ideas y posibles soluciones, pero todo está sujeto a discusión. Entonces, si tiene algún comentario o idea, comuníquese con nosotros, cualquiera es bienvenido a participar.
 
 ----
 
-Blog post written by [Alistair Miles](https://github.com/alimanfoo).
+Publicación escrita por [Alistair Miles](https://github.com/alimanfoo).
