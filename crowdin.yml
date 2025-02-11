@@ -13,4 +13,6 @@ files:
       - /content/en/_posts/**
       - /content/en/numcodecs_redirects/**
       - /content/en/slides/**
+      - /content/en/slides/plugin/**
+      - /content/en/slides/theme/**
     update_option: update_as_unapproved
