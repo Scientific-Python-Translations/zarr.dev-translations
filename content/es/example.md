@@ -1,27 +1,27 @@
-# Markdown Demo
+# Demo de Markdown
 
-## External 1.1
+## Externo 1.1
 
-Content 1.1
+Contenido 1.1
 
-Note: This will only appear in the speaker notes window.
+Nota: Esto sólo aparecerá en la ventana de notas del altavoz.
 
-## External 1.2
+## Externo 1.2
 
-Content 1.2
+Contenido 1.2
 
-## External 2
+## Externo 2
 
-Content 2.1
+Contenido 2.1
 
-## External 3.1
+## Externo 3.1
 
-Content 3.1
+Contenido 3.1
 
-## External 3.2
+## Externo 3.2
 
-Content 3.2
+Contenido 3.2
 
-## External 3.3
+## Externo 3.3
 
-![External Image](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
+![Imagen externa](https://s3.amazonaws.com/static.slid.es/logo/v2/slides-symbol-512x512.png)
