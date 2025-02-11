@@ -5,7 +5,7 @@ categories: zarr specs
 layout: home
 author_profile: false
 sidebar:
-  title: Content
+  title: Contenido
   nav: sidebar
 ---
 
