@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: false
-title: Slides
+title: Diapositivas
 permalink: /slides/
 sidebar:
   title: Contenido
@@ -9,4 +9,4 @@ sidebar:
 ---
 
 - [SciPy 2019](scipy-2019.html) ([PDF](scipy-2019.pdf))
-- [Zarr protocol spec v3 design update, 19 June 2019](v3-update-20190619.html)
+- [Actualización de diseño de la especificación de protocolo Zarr v3, 19 de junio de 2019](v3-update-20190619.html)
