@@ -1,21 +1,96 @@
 ---
 layout: single
 author_profile: false
-title: Horário de expediente da Zarr
-permalink: /office-hours/
+title: Implementações do Zarr
 sidebar:
   title: Conteúdo
   nav: sidebar
 ---
 
-<button type="button" name="office-hours" class="btn" onclick="window.open('https://us06web.zoom.us/j/83046491212?pwd=MV5dMCnYIy6E57Rn8IpmwasLX27wOd.1');">Participe aqui</button>
+<font size="4">
+Zarr é um formato de armazenamento de dados baseado em uma <a
+href="https://zarr-specs.readthedocs.io/">especificação</a> de código aberto, tornando
+implementações através de vários idiomas possível. Ele é usado em vários
+domínios, incluindo geoespacial, bioimagem, genômica, ciência de dados e HPC. 🌏🔬🧬<br><br>
 
-<p><font size="4">Estamos hospedando o horário de expediente às quartas-feiras a cada duas semanas. Junte-se a nós se tiver dúvidas sobre o Zarr e quiser saber mais sobre o formato de armazenamento. Discutiremos as especificações, as implementações, o que há de novo no ecossistema do Zarr, como você pode se envolver na comunidade e muito mais.</font></p>
+As implementações das versões 2 e 3 do Zarr são listadas (em ordem alfabética por idioma) da seguinte forma:<br><br> </font>
 
-<p><font size="4">O horário de expediente é um ótimo lugar para ir se você quiser começar a usar o Zarr e tiver dúvidas sobre se ele atende às suas necessidades de armazenamento de dados. Teremos alguns itens na pauta para dar início à reunião, mas a pauta geral e a estrutura do horário de expediente serão moldadas de acordo com as necessidades dos participantes e da comunidade.</font></p>
+| Linguagem     | Implementação  | V2 | V3 | Último lançamento/Commit |
+| ------------- | -------------- | -- | -- | ------------------------ |
+| C             | [NetCDF-C]     | ✓  |    | ![][NetCDF-C-re]         |
+| C++           | [GDAL]         | ✓  |    | ![][GDAL-re]             |
+| C++/Python    | [TensorStore]  | ✓  | ✓  | ![][tensorstore-lu]      |
+| C++           | [xtensor-zarr] | ✓  | ✗  | ![][xtensor-zarr-lu]     |
+| C++           | [z5]           | ✓  |    | ![][z5-re]               |
+| Java          | [JZarr]        | ✓  |    | ![][JZarr-lu]            |
+| Java          | [n5-zarr]      | ✓  |    | ![][n5-zarr-lu]          |
+| Java          | [netCDF-Java]  | ✓  |    | ![][netCDF-Java-re]      |
+| Java          | [zarr-java]    | ?  | ?  | ![][zarr-java-re]        |
+| Javascript    | [Zarr.js]      | ✓  |    | ![][Zarr.js-re]          |
+| Javascript    | [zarr-js]      | ✓  |    | ![][zarr-js-lu]          |
+| Javascript    | [zarrita.js]   | ✓  | ✓  | ![][zarrita.js-re]       |
+| Julia         | [Zarr.jl]      | ✓  |    | ![][Zarr.jl-re]          |
+| OCaml         | [zarr-ml]      |    | ✓  | ![][zarr-ml-re]          |
+| Python        | [Zarr-Python]  | ✓  | ✓  | ![][Zarr-Python-re]      |
+| Python        | [Zarrita]      | ✓  | ✓  | ![][Zarrita-lu]          |
+| R             | [pizzarr]      | ✓  |    | ![][pizzarr-lu]          |
+| R             | [Rarr]         | ✓  |    | ![][Rarr-lu]             |
+| Rust          | [charizarr]    |    | ?  | ![][charizarr-lu]        |
+| Rust          | [rust-N5]      |    |    | ![][rust-N5-lu]          |
+| Rust          | [zarr]         |    | ?  | ![][zarr-lu]             |
+| Rust          | [zarr3-rs]     |    | ?  | ![][zarr3-rs-lu]         |
+| Rust/Python/C | [zarrs]        | ✓  | ✓  | ![][zarrs-re]            |
 
-<p><font size="4">Consulte o calendário da comunidade do Zarr para saber os horários exatos:</font></p>
+<sup>✓ Provavelmente compatível</sup> <sup>? Compatibilidade desconhecida</sup> <sup>✗ Não compatível</sup>
 
-<iframe id="calendariframe" src="https://calendar.google.com/calendar/embed?ctz=local&src=c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <script>document.getElementById("calendariframe").src = document.getElementById("calendariframe").src.replace("ctz=local", "ctz=" + Intl.DateTimeFormat().resolvedOptions().timeZone)</script> 
+[NetCDF-C]: https://github.com/Unidata/netcdf-c
+[NetCDF-C-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-c
+[GDAL]: https://gdal.org/drivers/raster/zarr.html
+[GDAL-re]: https://img.shields.io/github/release-date-pre/OSGeo/gdal
+[JZarr]: https://github.com/bcdev/jzarr
+[JZarr-lu]: https://img.shields.io/github/last-commit/bcdev/jzarr
+[Zarr.js]: https://github.com/gzuidhof/zarr.js
+[Zarr.js-re]: https://img.shields.io/github/release-date-pre/gzuidhof/zarr.js
+[Zarr.jl]: https://github.com/JuliaIO/Zarr.jl
+[Zarr.jl-re]: https://img.shields.io/github/release-date-pre/JuliaIO/Zarr.jl
+[Zarr-Python]: https://github.com/zarr-developers/zarr-python
+[Zarr-Python-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-python
+[Zarrita]: https://github.com/scalableminds/zarrita
+[Zarrita-lu]: https://img.shields.io/github/last-commit/scalableminds/zarrita
+[Rarr]: https://github.com/grimbough/Rarr
+[Rarr-lu]: https://img.shields.io/github/last-commit/grimbough/Rarr
+[rust-N5]: https://github.com/aschampion/rust-n5
+[rust-N5-lu]: https://img.shields.io/github/last-commit/aschampion/rust-n5
+[TensorStore]: https://github.com/google/tensorstore/
+[TensorStore-lu]: https://img.shields.io/github/last-commit/google/tensorstore
+[n5-zarr]: https://github.com/saalfeldlab/n5-zarr
+[n5-zarr-lu]: https://img.shields.io/github/last-commit/saalfeldlab/n5-zarr
+[zarr-js]: https://github.com/freeman-lab/zarr-js
+[zarr-js-lu]: https://img.shields.io/github/last-commit/freeman-lab/zarr-js
+[zarr]: https://github.com/sci-rs/zarr
+[zarr-lu]: https://img.shields.io/github/last-commit/sci-rs/zarr
+[xtensor-zarr]: https://github.com/xtensor-stack/xtensor-zarr
+[xtensor-zarr-lu]: https://img.shields.io/github/last-commit/xtensor-stack/xtensor-zarr
+[netCDF-Java]: https://github.com/Unidata/netcdf-java
+[netCDF-Java-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-java
+[z5]: https://github.com/constantinpape/z5
+[z5-re]: https://img.shields.io/github/release-date-pre/constantinpape/z5
+[pizzarr]: https://keller-mark.github.io/pizzarr/
+[pizzarr-lu]: https://img.shields.io/github/last-commit/keller-mark/pizzarr
+[zarrs]: https://github.com/LDeakin/zarrs
+[zarrs-re]: https://img.shields.io/github/release-date-pre/LDeakin/zarrs
+[zarrita.js]: https://github.com/manzt/zarrita.js
+[zarrita.js-re]: https://img.shields.io/github/release-date-pre/manzt/zarrita.js
+[zarr-ml]: https://github.com/zoj613/zarr-ml
+[zarr-ml-re]: https://img.shields.io/github/release-date-pre/zoj613/zarr-ml
+[zarr3-rs]: https://github.com/clbarnes/zarr3-rs
+[zarr3-rs-lu]: https://img.shields.io/github/last-commit/clbarnes/zarr3-rs
+[charizarr]: https://github.com/mpiannucci/charizarr
+[charizarr-lu]: https://img.shields.io/github/last-commit/mpiannucci/charizarr
+[zarr-java]: https://github.com/zarr-developers/zarr-java
+[zarr-java-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-java
 
-<font size="4">Baixe o arquivo <a href="https://calendar.google.com/calendar/ical/c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com/public/basic.ics">.ics</a> e adicione-o ao seu calendário para não perder nenhuma de nossas reuniões!</font>
+<font size="4">→ Sinta-se à vontade para adicionar quaisquer implementações faltantes enviando uma PR para o site <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositório</a>. 🤝🏻<br><br>
+
+→ envolva-se em várias implementações do Zarr corrigindo erros, resolvendo problemas, melhorando a documentação ou contribuindo para o código.
+Se você tem feito qualquer dessas atividades recentemente, nós convidamos você a participar de nossas <a href="https://zarr.dev/community-calls/">reuniões da comunidade</a> e compartilhar seu trabalho conosco. Estaríamos encantados em mostrar seus esforços. 💪🏻 </font>
