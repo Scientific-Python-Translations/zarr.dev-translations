@@ -1,64 +1,98 @@
 ---
 layout: single
 author_profile: false
+title: Adotantes de Zarr
 sidebar:
-  title: Content
+  title: Conteúdo
   nav: sidebar
-excerpt: Possui belos dados no Zarr? Mostre-nos no Bluesky!
-header:
-  overlay_image: /images/llc4320_sst.png
-  overlay_filter: 0.5
-  caption: "Crédito: Ryan Abernathey"
-  actions:
-    - label: Compartilhe aqui!
-      url: https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata
 ---
 
-Zarr é um projeto da comunidade para desenvolver especificações e software para armazenamento de grandes matrizes tipadas n-dimensionais, também comumente conhecidas como tensores. Um foco particular de Zarr é fornecer suporte para o armazenamento
-usando sistemas distribuídos como armazenagem de objetos em nuvem, e para habilitar E/S eficiente para aplicações de computação paralela.
+<p style="font-family:Trebuchet MS"><font size="4">💡 Se você estiver usando Zarr de alguma forma e quiser ser adicionado a esta página, por favor, ponha o logotipo e o resumo <a href="https://github.com/zarr-developers/community/issues/60">aqui</a>.</font></p>
 
-## Descrição
+<p style="font-family:Trebuchet MS"><font size="4"> Obrigado à incrível comunidade, Zarr é amplamente adotado e usado por esses grupos. Aqui estão os logotipos (em ordem alfabética):</font></p>
 
-Zarr é motivado pela necessidade de um formato simples, transparente, aberto e baseado em uma comunidade que suporte alta taxa de E/S distribuída em sistemas de armazenamento diferentes. Os dados do Zarr podem ser armazenados em qualquer sistema de armazenamento que pode ser representado como uma loja de valor chave, incluindo mais comumente sistemas de arquivos POSIX e armazenamento em nuvem de objetos, mas também arquivos zipados, bem como bancos de dados de documentos e relacionais.
+<a href="https://carbonplan.org/"><img src="../adopters/logos/carbonplan.svg" alt="Carbonplan" width="600" height="300"></a>
 
-Veja os seguintes repositórios do GitHub para mais informações:
+<font size="3">→ Zarr é usado por <a href="https://carbonplan.org/">CarbonPlan</a> como um formato de armazenamento para análise e visualização dos dados climáticos.</font>
 
-- [Zarr Python](https://github.com/zarr-developers/zarr)
-- [Zarr Specs](https://github.com/zarr-developers/zarr-specs)
-- [Numcodecs](https://github.com/zarr-developers/numcodecs)
-- [Z5](https://github.com/constantinpape/z5)
-- [N5](https://github.com/saalfeldlab/n5)
-- [Zarr.jl](https://github.com/meggart/Zarr.jl)
-- [ndarray.scala](https://github.com/lasersonlab/ndarray.scala)
+---
 
-## Aplicações
+<a href="https://www.columbia.edu/"><img src="../adopters/logos/columbia.png" alt="Columbia" width="700" height="300"></a>
 
-- Serialização simples e rápida de matrizes do tipo NumPy, acessível a partir de linguagens como Python, C, C++, Rust, Javascript e Java
-- Armazenamento de imagens n-dimensionais em várias escalas, por exemplo, em microscópio leve e elétrons
-- Interpretadores geoespaciais, por exemplo, seguindo as convenções de metadados NetCDF / CFC
+---
 
-## Recursos
+<a href="https://lamont.columbia.edu/"><img src="../adopters/logos/ldeo.png" alt="LDEO" width="700" height="400"></a>
 
-- Divide matrizes multidimensionais ao longo de qualquer dimensão.
-- Armazenar matrizes na memória, em disco, dentro de um arquivo Zip, no S3, etc.
-- Lê e escreve matrizes simultaneamente a partir de múltiplos tópicos ou processos.
-- Organiza matrizes em hierarquias através de grupos anotáveis.
+---
 
-## Patrocínio
+<a href="https://dandiarchive.org/"><img src="../adopters/logos/dandi.svg" alt="DANDI" width="500" height="300"></a>
 
-Zarr é um Projeto Patrocinado da NumFOCUS, uma instituição pública de caridade conforme a lei US 501(c)(3).
+<font size="3">→ O Zarr é atualmente usado pela DANDI para microscopia de lâmina de luz e alguns conjuntos de dados de ressonância magnética ex vivo, e está sendo considerado um backend para conjuntos de dados de neurofisiologia da Neurodata Without Borders (NWB).</font>
 
-Projetos Patrocinados pela NumFOCUS dependem do generoso apoio de patrocinadores corporativos, parceiros institucionais e doadores individuais.
+---
 
-## Vídeos
+<a href= "https://research.google/"><img src="../adopters/logos/google_research.png" alt="Google Research" width="600" height="400"></a>
 
-[Vídeos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
-dos membros da comunidade falando sobre Zarr. Se você tem um vídeo que gostaria que compartilhássemos, nos avise!
+<font size="3">→ Google Research lançou uma série de projetos de código aberto para trabalhar com dados de Zarr (incluindo <a href="https://github.com/google/neuroglancer/">Neuroglancer</a>, <a href="https://github.com/google/tensorstore/">TensorStore</a>, <a href="https://github.com/google/xarray-beam/">Xarray-Beam</a> e <a href="https://github.com/google/xarray-tensorstore/">Xarray-TensorStore</a>) e usa Zarr para distribuir <a href="https://github.com/google-research/arco-era5/">conjuntos de dados meteorológicos em larga escala</a>.</font>
 
-<div class="video">
-    <figure>
-        <iframe width="640" height="480"
-            src="https://www.youtube.com/embed/videoseries?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7"
-            frameborder="0" allowfullscreen></iframe>
-    </figure>
-</div>
+---
+
+<a href="https://www.janelia.org/"><img src="../adopters/logos/hhmi.png" alt="HHMI" width="600" height="300"></a>
+
+<font size="3">→ Zarr é usado extensivamente dentro do Janelia Research Campus, para armazenar e acessar com eficiência grandes conjuntos de dados de imagens</font>
+
+---
+
+<a href="https://leap.columbia.edu/"><img src="../adopters/logos/leap.webp" alt="LEAP" width="550" height="300"></a>
+
+<font size="3">→ Zarr é usado pelo <a href="https://leap.columbia.edu/">LEAP Project</a> (Learning the Earth with Artificial Intelligence and Physics) na Universidade Columbia como formato de dados para a biblioteca de dados LEAP-Pangeo. Pesquisadores de LEAP usam Zarr para realizar análise de dados e aprendizado de máquina para modelagem climática.</font>
+
+---
+
+<a href="https://planetarycomputer.microsoft.com/catalog?filter=zarr"><img src="../adopters/logos/microsoft.png" alt="Microsoft" width="600" height="300"></a>
+
+<font size="3">→ Zarr é usado pelo <a href="https://planetarycomputer.microsoft.com/">Microsoft Planetary Computer</a> como um formato de armazenamento nativo em nuvem para conjuntos de dados geoespaciais.</font>
+
+---
+
+<a href="https://www.nasa.gov/"><img src="../adopters/logos/nasa.webp" alt="NASA" width="600" height="300"></a>
+
+<font size="3">→ O Zarr é usado pela NASA como um armazenamento de dados pronto para análise de matrizes N-dimensionais de dados geoespaciais.</font>
+
+---
+
+<a href="https://ncar.ucar.edu/"><img src="../adopters/logos/ncar.svg" alt="NCAR" width="600" height="300"></a>
+
+---
+
+<a href="https://www.openmicroscopy.org/"><img src="../adopters/logos/ome_logo.svg" alt="OME" width="600" height="300"></a>
+
+<font size="3">→ A comunidade <a href="https://www.openmicroscopy.org/">Open Microscopy Environment (OME)</a> está desenvolvendo um formato, OME-Zarr, usando Zarr para armazenar grandes imagens biológicas n-dimensionais como parte do esforço de <a href="https://ngff.openmicroscopy.org/">formato de arquivo de nova geração (NGFF)</a>."
+
+Logotipo OME usado com <a href="https://www.openmicroscopy.org/artwork/">permissão</a>, marca registrada da <a href="https://www.glencoesoftware.com/">Glencoe Software, Inc.</a></font>
+
+---
+
+<a href="https://pangeo.io/"><img src="../adopters/logos/pangeo.png" alt="Pangeo" width="550" height="300"></a>
+
+<font size="3">→ Zarr é usado extensivamente dentro do projeto <a href="https://pangeo.io/">Pangeo</a> como um formato de armazenamento nativo de nuvem para o oceano, meteorologia, clima e dados geoespaciais.</font>
+
+---
+
+<a href="https://scalableminds.com/"><img src="../adopters/logos/scalableminds.svg" alt="scalableminds" width="500" height="250"></a>
+
+<font size="3">→ mentes escaláveis usam Zarr para armazenar e processar imagens peta-escala 3D de tecido cerebrais para análises de conectômicas.</font>
+
+---
+
+<a href="https://www.unidata.ucar.edu/"><img src="../adopters/logos/unidata.png" alt="Unidata" width="600" height="300"></a>
+
+<font size="3">→ <a href="https://www.unidata.ucar.edu/">Unidata</a> está desenvolvendo suas bibliotecas netCDF para apoiar os dados do Zarr entre a comunidade atmosférica e geoscientífica.</font>
+
+---
+
+<a href="https://webknossos.org/"><img src="../adopters/logos/webknossos.svg" alt="Webknossos" width="600" height="300"></a>
+
+<font size="3">→ WEBKNOSSOS é uma plataforma baseada na web para visualizar, anotar e compartilhar imagens grandes em 3D. Zarr é usado para acessar imagens remotamente armazenadas, bem como para transmitir dados de anotação de dados a aplicações do cliente.</font>
+
+---
