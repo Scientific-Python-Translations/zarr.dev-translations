@@ -56,7 +56,7 @@ As implementações das versões 2 e 3 do Zarr são listadas (em ordem alfabéti
 [Zarr-Python]: https://github.com/zarr-developers/zarr-python
 [Zarr-Python-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-python
 [Zarrita]: https://github.com/scalableminds/zarrita
-[Zarrita-lu]: https://img.shields.io/github/last-commit/scalableminds/zarrita
+[Zarrita-lu]: https://img.shields.io/github/last-commit/scalableminds/zarritaLikely
 [Rarr]: https://github.com/grimbough/Rarr
 [Rarr-lu]: https://img.shields.io/github/last-commit/grimbough/Rarr
 [rust-N5]: https://github.com/aschampion/rust-n5
