@@ -13,10 +13,10 @@ jobs:
         uses: Scientific-Python-Translations/content-sync@main
         with:
           source-repo: "zarr-developers/zarr-developers.github.io"
-          source-folder: "zarr-developers.github.io"
+          source-folder: "zarr-developers.github.io/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
-          translations-folder: "zarr.dev-translations/content/en"
+          translations-folder: "zarr.dev-translations/content/en/"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
