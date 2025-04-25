@@ -1,5 +1,5 @@
 ---
-layout: início
+layout: home
 author_profile: false
 title: Slides
 permalink: /slides/
