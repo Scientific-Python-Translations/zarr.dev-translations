@@ -68,3 +68,7 @@ footer:
       label: "Zulip"
       icon: "fas fa-comments"
       url: "https://ossci.zulipchat.com/"
+    - 
+      label: "Zulip"
+      icon: "fas fa-comments"
+      url: "https://ossci.zulipchat.com/"
