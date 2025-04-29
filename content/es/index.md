@@ -1,21 +1,64 @@
 ---
 layout: single
 author_profile: false
-title: Horario de oficina de Zarr
-permalink: /office-hours/
 sidebar:
   title: Contenido
   nav: sidebar
+excerpt: ¿Tienes datos hermosos en Zarr? ¡Muéstranos en Bluesky!
+header:
+  overlay_image: /images/llc4320_sst.png
+  overlay_filter: 0.5
+  caption: "Credit: Ryan Abernathey"
+  actions:
+    - label: Comparte aquí!
+      url: https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata
 ---
 
-<font size="4">Únase aquí</0>
+Zarr es un proyecto comunitario para desarrollar especificaciones y software para
+almacenamiento de grandes matrices tipadas N- dimensionales, también conocidas comúnmente como tensores. Un enfoque particular de Zarr es brindar soporte para el almacenamiento utilizando sistemas distribuidos como almacenes de objetos en la nube y permitir Entrada/Salida eficientes para aplicaciones informáticas paralelas.
 
-<p><0>Tenemos horario de oficina los miércoles cada dos semanas. Únase a nosotros si tiene preguntas sobre Zarr y desea obtener más información sobre el formato de almacenamiento. Discutiremos las especificaciones, las implementaciones, las novedades del ecosistema Zarr, cómo puedes involucrarte en la comunidad y mucho más.</font></p>
+## Descripción
 
-<p><0>El horario de oficina es un excelente lugar al que acudir si desea comenzar a utilizar Zarr y tiene preguntas sobre si se adapta a sus necesidades de almacenamiento de datos. Tendremos algunos puntos en la agenda para iniciar la reunión, pero la agenda general y la estructura del horario de oficina se ajustarán según las necesidades de los asistentes y de la comunidad.</font></p>
+Zarr está motivado por la necesidad de un formato simple, transparente, abierto e impulsado por la comunidad que admita Entrada/Salida distribuidas de alto rendimiento en diferentes sistemas de almacenamiento. Los datos de Zarr se pueden almacenar en cualquier sistema de almacenamiento que pueda representarse como un almacén de llave-valor, incluidos los sistemas de archivos más comúnmente POSIX y el almacenamiento de objetos en la nube, pero también archivos zip, así como bases de datos relacionales y de documentos.
 
-<p><font size="4">Consulte el calendario de la comunidad de Zarr para conocer los horarios exactos:</font></p>
+Consulte los siguientes repositorios de GitHub para obtener más información:
 
-<iframe id="calendariframe" src="https://calendar.google.com/calendar/embed?ctz=local&src=c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com&ctz=Europe%2FBerlin" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> <script>document.getElementById("calendariframe").src = document.getElementById("calendariframe").src.replace("ctz=local", "ctz=" + Intl.DateTimeFormat().resolvedOptions().timeZone)</script> 
+- [Zarr Python](https://github.com/zarr-developers/zarr)
+- [Especificaciones de Zarr](https://github.com/zarr-developers/zarr-specs)
+- [Numcodecs](https://github.com/zarr-developers/numcodecs)
+- [Z5](https://github.com/constantinpape/z5)
+- [N5](https://github.com/saalfeldlab/n5)
+- [Zarr.jl](https://github.com/meggart/Zarr.jl)
+- [ndarray.scala](https://github.com/lasersonlab/ndarray.scala)
 
-<font size="4">Descarga el archivo <a href="https://calendar.google.com/calendar/ical/c_ba2k79i3u0lkf49vo0jre27j14%40group.calendar.google.com/public/basic.ics">.ics</a> y añádalo a su calendario para no perderse ninguna de nuestras reuniones.</font>
+## Aplicaciones
+
+- Serialización simple y rápida de matrices tipo NumPy, accesibles desde lenguajes como Python, C, C++, Rust, Javascript y Java.
+- Almacenamiento de imágenes N-dimensionales a múltiples escalas, por ejemplo en microscopía óptica y electrónica
+- Rásteres geoespaciales, por ejemplo siguiendo las convenciones de metadatos de NetCDF/CF
+
+## Características
+
+- Fraccione matrices multidimensionales a lo largo de cualquier dimensión.
+- Almacene matrices en la memoria, en el disco, dentro de un archivo Zip, en S3, etc.
+- Lea y escriba matrices simultáneamente desde múltiples subprocesos o procesos.
+- Organice matrices en jerarquías mediante grupos anotables.
+
+## Patrocinio
+
+Zarr es un proyecto patrocinado por NumFOCUS, una organización 501(c)(3) benéfica pública estadounidense .
+
+Los proyectos patrocinados por NumFOCUS dependen del generoso apoyo de patrocinadores corporativos, socios institucionales y donantes individuales.
+
+## Vídeos
+
+[Vídeos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
+de miembros de la comunidad hablando de Zarr. Si tiene un vídeo que le gustaría que compartiéramos, ¡háganoslo saber!
+
+<div class="video">
+    <figure>
+        <iframe width="640" height="480"
+            src="https://www.youtube.com/embed/videoseries?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7"
+            frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
