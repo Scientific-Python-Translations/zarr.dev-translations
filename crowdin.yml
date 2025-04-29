@@ -16,3 +16,24 @@ files:
       - /content/en/slides/css/theme/**
       - /content/en/slides/plugin/markdown/**
     update_option: update_as_unapproved
+  - source: /content/en/about/*.html
+    translation: /content/%two_letters_code%/about/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/adopters/*.md
+    translation: /content/%two_letters_code%/adopters/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/community/*.md
+    translation: /content/%two_letters_code%/community/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/conventions/*.md
+    translation: /content/%two_letters_code%/conventions/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/datasets/*.md
+    translation: /content/%two_letters_code%/datasets/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/implementations/*.md
+    translation: /content/%two_letters_code%/implementations/%original_file_name%
+    update_option: update_as_unapproved
+  - source: /content/en/office_hours/*.md
+    translation: /content/%two_letters_code%/office_hours/%original_file_name%
+    update_option: update_as_unapproved
