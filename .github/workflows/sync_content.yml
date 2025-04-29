@@ -14,7 +14,7 @@ jobs:
           source-folder: ""
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
-          translations-folder: "zarr.dev-translations/content/en/"
+          translations-folder: "content/en/"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
