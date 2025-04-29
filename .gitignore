@@ -1,5 +1,2 @@
-content/en/**
-!content/en/**/
-!content/en/**/*.md
-!content/en/_config.yml
 .DS_Store
+content/en/.git
