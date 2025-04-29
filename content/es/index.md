@@ -1,101 +1,64 @@
 ---
 layout: single
 author_profile: false
-title: Implementaciones Zarr
 sidebar:
   title: Contenido
   nav: sidebar
+excerpt: ¿Tienes datos hermosos en Zarr? ¡Muéstranos en Bluesky!
+header:
+  overlay_image: /images/llc4320_sst.png
+  overlay_filter: 0.5
+  caption: "Credit: Ryan Abernathey"
+  actions:
+    - label: Comparte aquí!
+      url: https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata
 ---
 
-<0>
-Zarr es un formato de almacenamiento de datos basado en una <1>especificación</1> de código abierto, lo que hace posibles implementaciones en varios lenguajes. Se utiliza en varios
-dominios, incluidos geoespacial, bioimágenes, genómica, ciencia de datos y computación de alto desempeño (HPC). 🌏🔬🧬<br><br>
+Zarr es un proyecto comunitario para desarrollar especificaciones y software para
+almacenamiento de grandes matrices tipadas N- dimensionales, también conocidas comúnmente como tensores. Un enfoque particular de Zarr es brindar soporte para el almacenamiento utilizando sistemas distribuidos como almacenes de objetos en la nube y permitir Entrada/Salida eficientes para aplicaciones informáticas paralelas.
 
-Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfabético por idioma) de la siguiente manera:<br><br> </font>
+## Descripción
 
-| Lenguaje      | Implementación | V2 | V3 | Última publicación/confirmación |
-| ------------- | -------------- | -- | -- | ------------------------------- |
-| C             | [NetCDF-C]     | ✓  |    | ![][NetCDF-C-re]                |
-| C++           | [cpp-zarr]     | ✓  |    | ![][cpp-zarr-re]                |
-| C++           | [GDAL]         | ✓  |    | ![][GDAL-re]                    |
-| C++/Python    | [TensorStore]  | ✓  | ✓  | ![][tensorstore-lu]             |
-| C++           | [xtensor-zarr] | ✓  | ✗  | ![][xtensor-zarr-lu]            |
-| C++           | [z5]           | ✓  |    | ![][z5-re]                      |
-| Java          | [JZarr]        | ✓  |    | ![][JZarr-lu]                   |
-| Java          | [n5-zarr]      | ✓  |    | ![][n5-zarr-lu]                 |
-| Java          | [netCDF-Java]  | ✓  |    | ![][netCDF-Java-re]             |
-| Java          | [zarr-java]    | ?  | ?  | ![][zarr-java-re]               |
-| Javascript    | [Zarr.js]      | ✓  |    | ![][Zarr.js-re]                 |
-| Javascript    | [zarr-js]      | ✓  |    | ![][zarr-js-lu]                 |
-| Javascript    | [zarrita.js]   | ✓  | ✓  | ![][zarrita.js-re]              |
-| Julia         | [Zarr.jl]      | ✓  |    | ![][Zarr.jl-re]                 |
-| OCaml         | [zarr-ml]      |    | ✓  | ![][zarr-ml-re]                 |
-| Python        | [Zarr-Python]  | ✓  | ✓  | ![][Zarr-Python-re]             |
-| Python        | [Zarrita]      | ✓  | ✓  | ![][Zarrita-lu]                 |
-| R             | [pizzarr]      | ✓  |    | ![][pizzarr-lu]                 |
-| R             | [Rarr]         | ✓  |    | ![][Rarr-lu]                    |
-| Rust          | [charizarr]    |    | ?  | ![][charizarr-lu]               |
-| Rust          | [rust-N5]      |    |    | ![][rust-N5-lu]                 |
-| Rust          | [zarr]         |    | ?  | ![][zarr-lu]                    |
-| Rust          | [zarr3-rs]     |    | ?  | ![][zarr3-rs-lu]                |
-| Rust/Python/C | [zarrs]        | ✓  | ✓  | ![][zarrs-re]                   |
+Zarr está motivado por la necesidad de un formato simple, transparente, abierto e impulsado por la comunidad que admita Entrada/Salida distribuidas de alto rendimiento en diferentes sistemas de almacenamiento. Los datos de Zarr se pueden almacenar en cualquier sistema de almacenamiento que pueda representarse como un almacén de llave-valor, incluidos los sistemas de archivos más comúnmente POSIX y el almacenamiento de objetos en la nube, pero también archivos zip, así como bases de datos relacionales y de documentos.
 
-<0> ✓ Probablemente conforme</sup>
-<0>? Conformidad desconocida</0>
-<1>✗ No conforme</1>
+Consulte los siguientes repositorios de GitHub para obtener más información:
 
-[NetCDF-C]: https://github.com/Unidata/netcdf-c
-[NetCDF-C-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-c
-[cpp-zarr]: https://github.com/abcucberkeley/cpp-zarr
-[cpp-zarr-re]: https://img.shields.io/github/release-date/abcucberkeley/cpp-zarr
-[GDAL]: https://gdal.org/drivers/raster/zarr.html
-[GDAL-re]: https://img.shields.io/github/release-date-pre/OSGeo/gdal
-[JZarr]: https://github.com/bcdev/jzarr
-[JZarr-lu]: https://img.shields.io/github/last-commit/bcdev/jzarr
-[Zarr.js]: https://github.com/gzuidhof/zarr.js
-[Zarr.js-re]: https://img.shields.io/github/release-date-pre/gzuidhof/zarr.js
-[Zarr.jl]: https://github.com/JuliaIO/Zarr.jl
-[Zarr.jl-re]: https://img.shields.io/github/release-date-pre/JuliaIO/Zarr.jl
-[Zarr-Python]: https://github.com/zarr-developers/zarr-python
-[Zarr-Python-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-python
-[Zarrita]: https://github.com/scalableminds/zarrita
-[Zarrita-lu]: https://img.shields.io/github/last-commit/scalableminds/zarrita
-[Rarr]: https://github.com/grimbough/Rarr
-[Rarr-lu]: https://img.shields.io/github/last-commit/grimbough/Rarr
-[rust-N5]: https://github.com/aschampion/rust-n5
-[rust-N5-lu]: https://img.shields.io/github/last-commit/aschampion/rust-n5
-[TensorStore]: https://github.com/google/tensorstore/
-[TensorStore-lu]: https://img.shields.io/github/last-commit/google/tensorstore
-[n5-zarr]: https://github.com/saalfeldlab/n5-zarr
-[n5-zarr-lu]: https://img.shields.io/github/last-commit/saalfeldlab/n5-zarr
-[zarr-js]: https://github.com/freeman-lab/zarr-js
-[zarr-js-lu]: https://img.shields.io/github/last-commit/freeman-lab/zarr-js
-[zarr]: https://github.com/sci-rs/zarr
-[zarr-lu]: https://img.shields.io/github/last-commit/sci-rs/zarr
-[xtensor-zarr]: https://github.com/xtensor-stack/xtensor-zarr
-[xtensor-zarr-lu]: https://img.shields.io/github/last-commit/xtensor-stack/xtensor-zarr
-[netCDF-Java]: https://github.com/Unidata/netcdf-java
-[netCDF-Java-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-java
-[z5]: https://github.com/constantinpape/z5
-[z5-re]: https://img.shields.io/github/release-date-pre/constantinpape/z5
-[pizzarr]: https://keller-mark.github.io/pizzarr/
-[pizzarr-lu]: https://img.shields.io/github/last-commit/keller-mark/pizzarr
-[zarrs]: https://github.com/LDeakin/zarrs
-[zarrs-re]: https://img.shields.io/github/release-date-pre/LDeakin/zarrs
-[zarrita.js]: https://github.com/manzt/zarrita.js
-[zarrita.js-re]: https://img.shields.io/github/release-date-pre/manzt/zarrita.js
-[zarr-ml]: https://github.com/zoj613/zarr-ml
-[zarr-ml-re]: https://img.shields.io/github/release-date-pre/zoj613/zarr-ml
-[zarr3-rs]: https://github.com/clbarnes/zarr3-rs
-[zarr3-rs-lu]: https://img.shields.io/github/last-commit/clbarnes/zarr3-rs
-[charizarr]: https://github.com/mpiannucci/charizarr
-[charizarr-lu]: https://img.shields.io/github/last-commit/mpiannucci/charizarr
-[zarr-java]: https://github.com/zarr-developers/zarr-java
-[zarr-java-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-java
+- [Zarr Python](https://github.com/zarr-developers/zarr)
+- [Especificaciones de Zarr](https://github.com/zarr-developers/zarr-specs)
+- [Numcodecs](https://github.com/zarr-developers/numcodecs)
+- [Z5](https://github.com/constantinpape/z5)
+- [N5](https://github.com/saalfeldlab/n5)
+- [Zarr.jl](https://github.com/meggart/Zarr.jl)
+- [ndarray.scala](https://github.com/lasersonlab/ndarray.scala)
 
-<br>
-→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <1>repositorio</1> del sitio web. 🤝🏻<0><0>
+## Aplicaciones
 
-→ Participe en varias implementaciones de Zarr corrigiendo errores, resolviendo problemas, mejorando la documentación o contribuyendo al código base.
-Si ha estado realizando alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaremos encantados de mostrar sus esfuerzos. 💪🏻
-</0>
+- Serialización simple y rápida de matrices tipo NumPy, accesibles desde lenguajes como Python, C, C++, Rust, Javascript y Java.
+- Almacenamiento de imágenes N-dimensionales a múltiples escalas, por ejemplo en microscopía óptica y electrónica
+- Rásteres geoespaciales, por ejemplo siguiendo las convenciones de metadatos de NetCDF/CF
+
+## Características
+
+- Fraccione matrices multidimensionales a lo largo de cualquier dimensión.
+- Almacene matrices en la memoria, en el disco, dentro de un archivo Zip, en S3, etc.
+- Lea y escriba matrices simultáneamente desde múltiples subprocesos o procesos.
+- Organice matrices en jerarquías mediante grupos anotables.
+
+## Patrocinio
+
+Zarr es un proyecto patrocinado por NumFOCUS, una organización 501(c)(3) benéfica pública estadounidense .
+
+Los proyectos patrocinados por NumFOCUS dependen del generoso apoyo de patrocinadores corporativos, socios institucionales y donantes individuales.
+
+## Vídeos
+
+[Vídeos](https://www.youtube.com/playlist?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7)
+de miembros de la comunidad hablando de Zarr. Si tiene un vídeo que le gustaría que compartiéramos, ¡háganoslo saber!
+
+<div class="video">
+    <figure>
+        <iframe width="640" height="480"
+            src="https://www.youtube.com/embed/videoseries?list=PLvkeNUPrCU04Xvcph4ErxsRkZq28Oucr7"
+            frameborder="0" allowfullscreen></iframe>
+    </figure>
+</div>
