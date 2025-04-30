@@ -1,7 +1,7 @@
 name: Sync Content
 on:
-  schedule:
-    - cron: '0 5 * * *'  # Daily at 5 am
+  # schedule:
+  #   - cron: '0 5 * * *'  # Daily at 5 am
   workflow_dispatch:
 jobs:
   sync:
@@ -11,10 +11,10 @@ jobs:
         uses: Scientific-Python-Translations/content-sync@main
         with:
           source-repo: "zarr-developers/zarr-developers.github.io"
-          source-folder: ""
+          source-folder: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
-          translations-folder: "content/en/"
+          translations-folder: "content/"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
