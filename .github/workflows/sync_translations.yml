@@ -12,17 +12,18 @@ jobs:
         with:
           crowdin-project: "Zarr.dev"
           source-repo: "zarr-developers/zarr-developers.github.io"
-          source-folder: "content/en/"
+          source-path: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
-          translations-folder: "content/"
+          translations-path: "content/"
+          translations-source-path: "content/en/"
           translations-ref: "main"
           translation-percentage: "90"
           approval-percentage: "0"
-          use-precommit: false
-          create-toml-file: false
-          create-upstream-pr: false
-          automerge: false
+          use-precommit: "false"
+          create-toml-file: "false"
+          create-upstream-pr: "false"
+          auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
