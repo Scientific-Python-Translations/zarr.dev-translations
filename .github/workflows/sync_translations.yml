@@ -10,7 +10,6 @@ jobs:
       - name: Sync Zarr translations
         uses: Scientific-Python-Translations/translations-sync@main
         with:
-          # Provided by user
           crowdin-project: "Zarr.dev"
           source-repo: "zarr-developers/zarr-developers.github.io"
           source-folder: "content/en/"
@@ -24,7 +23,8 @@ jobs:
           create-toml-file: false
           create-upstream-pr: false
           automerge: false
-          # Provided by organization secrets
+          # These are provided by the Scientific Python Project and allow
+          # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           token: ${{ secrets.TOKEN }}
