@@ -1,13 +1,13 @@
 main:
-  - title: "Documentation"
+  - title: "Documentación"
     url: "https://zarr.readthedocs.io/en/stable/"
-  - title: "Contribute"
+  - title: "Contribuir"
     url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
-  - title: "Python Quickstart"
+  - title: "Inicia con Python"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
   - title: "Lenguaje"
 sidebar:
-  - title: About
+  - title: Acerca de
     children:
       - title: "Descripción"
         url: '#description'
@@ -19,25 +19,25 @@ sidebar:
         url: "#sponsorship"
       - title: "Vídeos"
         url: "#videos"
-  - title: Subpages
+  - title: Páginas
     children:
-      - title: "Adopters"
+      - title: "Usuarios"
         url: "/adopters/"
       - title: "Blog"
         url: 'blog/' # No starting slash, means not localized
-      - title: "Community"
+      - title: "Comunidad"
         url: '/community/'
-      - title: "Conventions"
+      - title: "Convenciones"
         url: '/conventions/'
-      - title: "Datasets"
+      - title: "Conjuntos de datos"
         url: '/datasets/'
-      - title: "Implementations"
+      - title: "Implementaciones"
         url: '/implementations/'
-      - title: "Office Hours"
+      - title: "Horarios de oficina"
         url: "/office-hours/"
       - title: "Diapositivas"
         url: "slides/" # No starting slash, means not localized
-      - title: "Specification"
+      - title: "Especificación"
         url: https://zarr-specs.readthedocs.io/
       - title: "ZEPs"
         url: 'zeps/' # No starting slash, means not localized
