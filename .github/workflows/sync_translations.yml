@@ -1,7 +1,7 @@
 name: Sync Translations
 on:
-  #schedule:
-  #  - cron: '0 12 * * MON'  # Every Monday at noon
+  # schedule:
+  #   - cron: '0 0 * * MON'  # Every Monday at midnight
   workflow_dispatch:
 jobs:
   sync_translations:
@@ -12,7 +12,7 @@ jobs:
         with:
           crowdin-project: "Zarr.dev"
           source-repo: "zarr-developers/zarr-developers.github.io"
-          source-path: "content/en/"
+          source-path: "en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
           translations-path: "content/"
