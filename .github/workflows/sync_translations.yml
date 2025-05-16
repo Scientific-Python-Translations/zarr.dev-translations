@@ -12,7 +12,7 @@ jobs:
         with:
           crowdin-project: "Zarr.dev"
           source-repo: "zarr-developers/zarr-developers.github.io"
-          source-path: "en/"
+          source-path: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/zarr.dev-translations"
           translations-path: "content/"
