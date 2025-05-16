@@ -5,7 +5,6 @@ main:
     url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
   - title: "Inicia con Python"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
-  - title: "Lenguaje"
 sidebar:
   - title: Acerca de
     children:
