@@ -5,7 +5,6 @@ main:
     url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
   - title: "Python Quickstart"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
-  - title: "Language"
 sidebar:
   - title: About
     children:
