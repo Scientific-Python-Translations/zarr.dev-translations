@@ -6,7 +6,7 @@ sidebar:
   nav: sidebar
 excerpt: Possui belos dados no Zarr? Mostre-nos no Bluesky!
 header:
-  overlay_image: /images/llc4320_sst.png
+  overlay_image: /assets/img/llc4320_sst.png
   overlay_filter: 0.5
   caption: "Crédito: Ryan Abernathey"
   actions:
