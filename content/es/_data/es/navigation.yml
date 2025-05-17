@@ -3,7 +3,7 @@ main:
     url: "https://zarr.readthedocs.io/en/stable/"
   - title: "Contribuir"
     url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
-  - title: "Inicia con Python"
+  - title: "Inicie con Python"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
 sidebar:
   - title: "Acerca de"
