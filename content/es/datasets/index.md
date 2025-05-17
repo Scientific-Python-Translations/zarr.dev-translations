@@ -22,8 +22,8 @@ Zarr ha sido <a href="https://zarr.dev/adopters/">adoptado</a> por una variedad 
 | [webKnossos](https://zarr.webknossos.org/)                                                                         | scalableminds GmbH             | 70 TB  |
 
 <br>
-<1>Si cree que su conjunto de datos sería un ejemplo útil para agregar a la lista, no dude en enviar una solicitud de cambio (PR) al <2>repositorio</2> del sitio web.<1><1>
+<1>Si cree que su conjunto de datos sería un ejemplo útil para agregar a la lista, no dude en enviar una solicitud de cambio (PR) al <2>repositorio del sitio web.<1><1>
 
 Asegúrese de que el conjunto de datos que está agregando a la lista sea público, de uso gratuito, esté documentado e ilustre la aplicación de Zarr dentro de un dominio específico.<br><br>
 
-Incluya únicamente las URL que espere que sean estables y se mantengan en el futuro previsible. </font>
+Por favor Incluya únicamente enlaces que sean estables y mantenidos a futuro. </font>
