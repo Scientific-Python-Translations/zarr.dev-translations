@@ -2,7 +2,6 @@
 layout: single
 author_profile: false
 title: Horario de oficina de Zarr
-permalink: /office-hours/
 sidebar:
   title: Contenido
   nav: sidebar
