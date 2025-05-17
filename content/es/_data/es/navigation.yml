@@ -6,7 +6,7 @@ main:
   - title: "Inicia con Python"
     url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
 sidebar:
-  - title: Acerca de
+  - title: "Acerca de"
     children:
       - title: "Descripción"
         url: '#descripción'
@@ -18,10 +18,10 @@ sidebar:
         url: "#patrocinio"
       - title: "Vídeos"
         url: "#videos"
-  - title: Páginas
+  - title: "Páginas"
     children:
       - title: "Usuarios"
-        url: "/adopters/"
+        url: "adopters/"
       - title: "Blog"
         url: "/blog/"
       - title: "Comunidad"
@@ -37,6 +37,6 @@ sidebar:
       - title: "Diapositivas"
         url: "/slides/"
       - title: "Especificación"
-        url: https://zarr-specs.readthedocs.io/
+        url: "https://zarr-specs.readthedocs.io/"
       - title: "ZEPs"
         url: "/zeps/"
