@@ -9,13 +9,13 @@ sidebar:
   - title: Acerca de
     children:
       - title: "Descripción"
-        url: "#description"
+        url: "#descripción"
       - title: "Aplicaciones"
-        url: "#applications"
+        url: "#aplicaciones"
       - title: "Características"
         url: "#features"
       - title: "Patrocinio"
-        url: "#sponsorship"
+        url: "#patrocinio"
       - title: "Vídeos"
         url: "#videos"
   - title: Páginas
