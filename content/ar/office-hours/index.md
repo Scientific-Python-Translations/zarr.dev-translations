@@ -2,6 +2,7 @@
 layout: single
 author_profile: false
 title: Zarr Office Hours
+permalink: /office-hours/
 sidebar:
   title: Content
   nav: sidebar
