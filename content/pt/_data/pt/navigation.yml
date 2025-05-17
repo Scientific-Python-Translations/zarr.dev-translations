@@ -9,14 +9,14 @@ sidebar:
   - title: "Sobre"
     children:
       - title: "Descrição"
-        url: '#description'
+        url: '#descrição'
       - title: "Aplicações"
-        url: '#applications'
+        url: '#aplicações'
       - title: "Recursos"
-        url: '#features'
+        url: '#recursos'
       - title: "Patrocínio"
-        url: "#sponsorship"
-      - title: "Vídeos"
+        url: "#patrocínio"
+      - title: "Videos"
         url: "#videos"
   - title: "Subpáginas"
     children:
