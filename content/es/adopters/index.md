@@ -17,15 +17,15 @@ sidebar:
 
 ---
 
-<a href="https://www.columbia.edu/"><img src="../adopters/logos/columbia.png" alt="Columbia" width="700" height="300"></a>
+<a href="https://www.columbia.edu/"><img src="{{ '/assets/img/logos/columbia.png' | relative_url }}" alt="Columbia" width="700" height="300"></a>
 
 ---
 
-<a href="https://lamont.columbia.edu/"><img src="../adopters/logos/ldeo.png" alt="LDEO" width="700" height="400"></a>
+<a href="https://lamont.columbia.edu/"><img src="{{ '/assets/img/logos/ldeo.png' | relative_url }}"  alt="LDEO" width="700" height="400"></a>
 
 ---
 
-<a href="https://dandiarchive.org/"><img src="../adopters/logos/dandi.svg" alt="DANDI" width="500" height="300"></a>
+<a href="https://dandiarchive.org/"><img src="{{ '/assets/img/logos/dandi.svg' | relative_url }}"  alt="DANDI" width="500" height="300"></a>
 
 <font size="3">→ DANDI utiliza actualmente Zarr para microscopía de lámina luminosa y algunos conjuntos de datos de resonancia magnética ex vivo, y se está considerando como motor para conjuntos de datos de neurofisiología de Neurodata Without Borders (NWB).</font>
 
