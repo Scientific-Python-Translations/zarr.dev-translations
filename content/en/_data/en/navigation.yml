@@ -1,10 +1,13 @@
 main:
-  - title: "Documentation"
-    url: "https://zarr.readthedocs.io/en/stable/"
-  - title: "Contribute"
-    url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
-  - title: "Python Quickstart"
-    url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
+  - title: "en"
+    url: "/en/"
+    children:
+    - title: "Documentation"
+      url: "https://zarr.readthedocs.io/en/stable/"
+    - title: "Contribute"
+      url: "https://zarr.readthedocs.io/en/stable/developers/contributing.html"
+    - title: "Python Quickstart"
+      url: "https://zarr.readthedocs.io/en/stable/quickstart.html"
 sidebar:
   - title: About
     children:

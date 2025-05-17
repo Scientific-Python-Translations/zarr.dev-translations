@@ -45,6 +45,6 @@ files:
   - source: /content/en/implementations/*.md
     translation: /content/%two_letters_code%/implementations/%original_file_name%
     update_option: update_as_unapproved
-  - source: /content/en/office_hours/*.md
-    translation: /content/%two_letters_code%/office_hours/%original_file_name%
+  - source: /content/en/office-hours/*.md
+    translation: /content/%two_letters_code%/office-hours/%original_file_name%
     update_option: update_as_unapproved
