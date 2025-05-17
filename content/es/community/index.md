@@ -7,7 +7,7 @@ sidebar:
   nav: sidebar
 ---
 
-Zarr es una especificación de formato de datos de código abierto impulsada por la comunidad, desarrollada y mantenida por diversos [colaboradores](https://github.com/orgs/zarr-developers/teams). Los colaboradores de Zarr tienen como objetivo mantener una comunidad abierta, igualitaria, diversa e inclusiva. Lea el [Código de conducta de Zarr] (https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md) para conocer la forma adecuada de interactuar con la comunidad y ayudarse mutuamente.
+Zarr es una especificación de formato de datos de código abierto impulsada por la comunidad, desarrollada y mantenida por diversos [colaboradores](https://github.com/orgs/zarr-developers/teams). Los colaboradores de Zarr tienen como objetivo mantener una comunidad abierta, igualitaria, diversa e inclusiva. Lea el [Código de conducta de Zarr](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md) para conocer la forma adecuada de interactuar con la comunidad y ayudarse mutuamente.
 
 La comunidad de Zarr se reúne dos veces cada dos semanas a través de [llamadas](https://zarr.dev/community-calls) y [reuniones ZEP](https://zarr.dev/zeps/meetings/). Eche un vistazo a nuestro [calendario comunitario](https://zarr.dev/community-calls/) para conocer los horarios exactos.
 
