@@ -39,7 +39,7 @@ Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfab�
 | Rust          | [zarr3-rs]     |    | ?  | ![][zarr3-rs-lu]                |
 | Rust/Python/C | [zarrs]        | ✓  | ✓  | ![][zarrs-re]                   |
 
-<sup>✓ ˘¿Probablemente compatible</sup> <sup>? Compatibilidad desconocida</sup> <sup>✗ No compatible</sup>
+<sup>✓ ¿Probablemente compatible</sup> <sup>? Compatibilidad desconocida</sup> <sup>✗ No compatible</sup>
 
 [NetCDF-C]: https://github.com/Unidata/netcdf-c
 [NetCDF-C-re]: https://img.shields.io/github/release-date-pre/Unidata/netcdf-c
@@ -90,8 +90,7 @@ Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfab�
 [zarr-java]: https://github.com/zarr-developers/zarr-java
 [zarr-java-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-java
 
-<font size="4">→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositorio</a> del sitio web. 🤝🏻<0><0>
+<font size="4">→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <a href="https://github.com/zarr-developers/zarr-developers.github.io/">repositorio</a> del sitio web. 🤝🏻 <br><br>
 
 → Participe en varias implementaciones de Zarr corrigiendo errores, resolviendo problemas, mejorando la documentación o contribuyendo a la base de código.
-Si ha estado haciendo alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaríamos encantados de mostrar sus esfuerzos. 💪🏻
-</0>
+Si ha estado haciendo alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaríamos encantados de mostrar sus esfuerzos. 💪🏻</font>
