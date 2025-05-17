@@ -16,8 +16,8 @@ sidebar:
         url: '#recursos'
       - title: "Patrocínio"
         url: "#patrocínio"
-      - title: "Videos"
-        url: "#videos"
+      - title: "Vídeos"
+        url: "#vídeos"
   - title: "Subpáginas"
     children:
       - title: "Adotantes"
