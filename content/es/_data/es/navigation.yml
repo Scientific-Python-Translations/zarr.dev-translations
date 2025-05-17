@@ -13,12 +13,12 @@ sidebar:
       - title: "Aplicaciones"
         url: '#aplicaciones'
       - title: "Características"
-        url: '#features'
+        url: '#características'
       - title: "Patrocinio"
         url: "#patrocinio"
       - title: "Vídeos"
         url: "#videos"
-  - title: "Páginas"
+  - title: "Subpáginas"
     children:
       - title: "Usuarios"
         url: "adopters/"
