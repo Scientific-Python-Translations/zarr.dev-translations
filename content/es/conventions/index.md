@@ -13,7 +13,7 @@ El formato de almacenamiento Zarr se utiliza en varios dominios y tiene comunida
 Estas son algunas de las convenciones que se utilizan actualmente:<a href="https://anndata.readthedocs.io/en/latest/">
 
 <ul>
-<li><a href="https://github.com/openssbd/bdz">Anndata</a></li>
+<li><a href="https://anndata.readthedocs.io/en/latest/">Anndata</a></li>
 <li><a href="https://github.com/openssbd/bdz">BDZ</a></li>
 <li><a href="https://github.com/zarr-developers/geozarr-spec">GeoZarr</a></li>
 <li><a href="https://docs.unidata.ucar.edu/nug/current/nczarr_head.html">NCZarr</a></li>
