@@ -8,7 +8,7 @@ sidebar:
   nav: sidebar
 ---
 
-<font size="4">Únase aquí</0>
+<button type="button" name="office-hours" class="btn" onclick="window.open('https://us06web.zoom.us/j/83046491212?pwd=MV5dMCnYIy6E57Rn8IpmwasLX27wOd.1');">Únase aquí</button>
 
 <p><0>Tenemos horario de oficina los miércoles cada dos semanas. Únase a nosotros si tiene preguntas sobre Zarr y desea obtener más información sobre el formato de almacenamiento. Discutiremos las especificaciones, las implementaciones, las novedades del ecosistema Zarr, cómo puedes involucrarte en la comunidad y mucho más.</font></p>
 
