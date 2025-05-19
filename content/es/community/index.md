@@ -7,7 +7,7 @@ sidebar:
   nav: sidebar
 ---
 
-Zarr es una especificación de formato de datos de código abierto impulsada por la comunidad, desarrollada y mantenida por diversos [colaboradores](https://github.com/orgs/zarr-developers/teams). Los colaboradores de Zarr tienen como objetivo mantener una comunidad abierta, igualitaria, diversa e inclusiva. Lea el [Código de conducta de Zarr] (https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md) para conocer la forma adecuada de interactuar con la comunidad y ayudarse mutuamente.
+Zarr es una especificación de formato de datos de código abierto impulsada por la comunidad, desarrollada y mantenida por diversos [colaboradores](https://github.com/orgs/zarr-developers/teams). Los colaboradores de Zarr tienen como objetivo mantener una comunidad abierta, igualitaria, diversa e inclusiva. Lea el [Código de conducta de Zarr](https://github.com/zarr-developers/.github/blob/main/CODE_OF_CONDUCT.md) para conocer la forma adecuada de interactuar con la comunidad y ayudarse mutuamente.
 
 La comunidad de Zarr se reúne dos veces cada dos semanas a través de [llamadas](https://zarr.dev/community-calls) y [reuniones ZEP](https://zarr.dev/zeps/meetings/). Eche un vistazo a nuestro [calendario comunitario](https://zarr.dev/community-calls/) para conocer los horarios exactos.
 
@@ -39,7 +39,7 @@ La mayoría de las discusiones y chats relacionados con Zarr y sus [implementaci
 
 - Interactuar con los mantenedores, contribuyentes y usuarios del proyecto; Únase al ZulipChat → [aquí](https://ossci.zulipchat.com/)
 - Quiere hacer preguntas relacionadas con el uso de [`zarr-python`](https://github.com/zarr-developers/zarr-python), cree una nueva discusión en GitHub → [aquí](https://github.com/zarr-developers/zarr-python/discussions)
-- Contribuir y participar en debates relacionados con la especificación Zarr; consulte el [repositorio] `zarr-specs`(https://github.com/zarr-developers/zarr-specs/) o cree un reporte → [aquí](https://github.com/zarr-developers/zarr-specs/issues)
+- Contribuya y participar en debates relacionados con la especificación Zarr; consulte el [repositorio](https://github.com/zarr-developers/zarr-specs/) `zarr-specs` o cree un reporte → [aquí](https://github.com/zarr-developers/zarr-specs/issues)
 
 También, encuéntrenos en:
 
