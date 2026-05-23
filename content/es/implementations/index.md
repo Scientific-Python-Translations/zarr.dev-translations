@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 title: Implementaciones Zarr
 sidebar:
-  title: Contenido
+  title: "Contenido"
   nav: sidebar
 ---
 
@@ -94,7 +94,7 @@ Las implementaciones de las versiones 2 y 3 de Zarr se enumeran (en orden alfab�
 [zarr-java-re]: https://img.shields.io/github/release-date-pre/zarr-developers/zarr-java
 
 <br>
-→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <1>repositorio</1> del sitio web. 🤝🏻<0><0>
+→ No dude en agregar cualquier implementación que falte enviando una solicitud de cambio (PR) al <1>repositorio del sitio web. 🤝🏻<0><0>
 
 → Participe en varias implementaciones de Zarr corrigiendo errores, resolviendo problemas, mejorando la documentación o contribuyendo al código base.
 Si ha estado realizando alguna de estas actividades recientemente, lo invitamos a unirse a nuestras <a href="https://zarr.dev/community-calls/">reuniones comunitarias</a> y compartir su trabajo con nosotros. Estaremos encantados de mostrar sus esfuerzos. 💪🏻
