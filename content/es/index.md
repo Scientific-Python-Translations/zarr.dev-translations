@@ -1,17 +1,20 @@
 ---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: single
 author_profile: false
 sidebar:
-  title: Contenido
+  title: "Contenido"
   nav: sidebar
-excerpt: ¿Tienes datos hermosos en Zarr? ¡Muéstranos en Bluesky!
+excerpt: "¿Tienes datos hermosos en Zarr? ¡Muéstranos en Bluesky!"
 header:
-  overlay_image: /images/llc4320_sst.png
-  overlay_filter: 0.5
-  caption: "Credit: Ryan Abernathey"
+  overlay_image: /assets/img/llc4320_sst.png
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Créditos: Ryan Abernathey"
   actions:
-    - label: Comparte aquí!
-      url: https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata
+    - label: "Comparte aquí!"
+      url: "https://bsky.app/intent/compose?text=@zarr.dev%20%23beautifuldata"
 ---
 
 Zarr es un proyecto comunitario para desarrollar especificaciones y software para

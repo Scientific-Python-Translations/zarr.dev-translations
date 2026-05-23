@@ -3,15 +3,15 @@ layout: single
 author_profile: false
 title: Usuarios de Zarr
 sidebar:
-  title: Contenido
+  title: "Contenido"
   nav: sidebar
 ---
 
 <p style="font-family:Trebuchet MS"><font size="4">💡 Si estás utilizando Zarr de alguna manera y te gustaría que te agreguemos en esta página, coloca tu logotipo y publicidad <a href="https://github.com/zarr-developers/community/issues/60">aquí</a>.</font></p>
 
-<p style="font-family:Trebuchet MS"><font size="4"> Gracias a la increíble comunidad, Zarr es ampliamente adoptado y utilizado por estos grupos. Aquí están los logotipos (en orden alfabético):</a></p>
+<p style="font-family:Trebuchet MS"><font size="4"> Gracias a la increíble comunidad, Zarr es ampliamente adoptado y utilizado por estos grupos. Aquí están los logotipos (en orden alfabético):</p>
 
-<a href="https://www.columbia.edu/"><img src="../adopters/logos/columbia.png" alt="Columbia" width="700" height="300"></a>
+<a href="https://carbonplan.org/"><img src="{{ '/assets/img/logos/carbonplan.svg' | relative_url }}" alt="Carbonplan" width="600" height="300"></a>
 
 <font size="3">→ Zarr es utilizado por <a href="https://carbonplan.org/">CarbonPlan</a> como formato de almacenamiento para el análisis y visualización de datos climáticos.</font>
 
@@ -37,7 +37,7 @@ sidebar:
 
 ---
 
-<font size="3"><1></font>
+<font size="3"><1></0>
 
 <font size="3">→ Zarr se utiliza ampliamente en el Janelia Research Campus para almacenar y acceder de manera eficiente a grandes conjuntos de datos de imágenes</font>
 
@@ -91,7 +91,7 @@ Logotipo de OME utilizado con <a href="https://www.openmicroscopy.org/artwork/">
 
 ---
 
-<font size="3"><1></0>
+<a href="https://www.columbia.edu/"><img src="../adopters/logos/columbia.png" alt="Columbia" width="700" height="300"></a>
 
 <0>→ WEBKNOSSOS es una plataforma basada en la web para visualizar, anotar de forma colaborativa y compartir grandes imágenes en 3D. Zarr se utiliza para acceder a imágenes almacenadas de forma remota, así como para transmitir de forma segura datos de anotaciones a aplicaciones cliente.</font>
 

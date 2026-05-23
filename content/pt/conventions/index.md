@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 title: Convenções do Zarr
 sidebar:
-  title: Conteúdo
+  title: "Conteúdo"
   nav: sidebar
 ---
 
